@@ -1,3 +1,4 @@
+  <h1>Tasks</h1>
   <h2>0. Basic dictionary</h2> 
   <p>Create a class <code>BasicCache</code> that inherits from <code>BaseCaching</code> and is a caching system:</p>
   <ul>
@@ -14,7 +15,6 @@ class BasicCache(BaseCaching):
         # Must return the value in self.cache_data linked to key.
         # If key is None or if the key doesn't exist in self.cache_data, return None.
   </code></pre>
-
   <h2>1. FIFO caching</h2>  
   <p>Create a class <code>FIFOCache</code> that inherits from <code>BaseCaching</code> and is a caching system:</p>
   <ul>
@@ -38,8 +38,7 @@ class FIFOCache(BaseCaching):
         # Must return the value in self.cache_data linked to key.
         # If key is None or if the key doesn't exist in self.cache_data, return None.
   </code></pre>
-
-  <h>2. LIFO Caching</h2>  
+  <h2>2. LIFO Caching</h2>  
   <p>Create a class <code>LIFOCache</code> that inherits from <code>BaseCaching</code> and is a caching system:</p>
   <ul>
     <li>You must use <code>self.cache_data</code> - dictionary from the parent class <code>BaseCaching</code></li>
