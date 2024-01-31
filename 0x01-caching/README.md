@@ -1,5 +1,4 @@
-  <h2>0. Basic dictionary</h2>
-  <p><strong>mandatory</strong></p>
+  <h2>0. Basic dictionary</h2> 
   <p>Create a class <code>BasicCache</code> that inherits from <code>BaseCaching</code> and is a caching system:</p>
   <ul>
     <li>You must use <code>self.cache_data</code> - dictionary from the parent class <code>BaseCaching</code></li>
@@ -16,8 +15,7 @@ class BasicCache(BaseCaching):
         # If key is None or if the key doesn't exist in self.cache_data, return None.
   </code></pre>
 
-  <h2>1. FIFO caching</h2>
-  <p><strong>mandatory</strong></p>
+  <h2>1. FIFO caching</h2>  
   <p>Create a class <code>FIFOCache</code> that inherits from <code>BaseCaching</code> and is a caching system:</p>
   <ul>
     <li>You must use <code>self.cache_data</code> - dictionary from the parent class <code>BaseCaching</code></li>
@@ -41,8 +39,7 @@ class FIFOCache(BaseCaching):
         # If key is None or if the key doesn't exist in self.cache_data, return None.
   </code></pre>
 
-  <h2>2. LIFO Caching</h2>
-  <p><strong>mandatory</strong></p>
+  <h>2. LIFO Caching</h2>  
   <p>Create a class <code>LIFOCache</code> that inherits from <code>BaseCaching</code> and is a caching system:</p>
   <ul>
     <li>You must use <code>self.cache_data</code> - dictionary from the parent class <code>BaseCaching</code></li>
@@ -67,7 +64,7 @@ class LIFOCache(BaseCaching):
   </code></pre>
 
   <h2>3. LRU Caching</h2>
-  <p><strong>mandatory</strong></p>
+
   <p>Create a class <code>LRUCache</code> that inherits from <code>BaseCaching</code> and is a caching system:</p>
   <ul>
     <li>You must use <code>self.cache_data</code> - dictionary from the parent class <code>BaseCaching</code></li>
@@ -91,8 +88,7 @@ class LRUCache(BaseCaching):
         # If key is None or if the key doesn't exist in self.cache_data, return None.
   </code></pre>
 
-  <h2>4. MRU Caching</h2>
-  <p><strong>mandatory</strong></p>
+  <h2>4. MRU Caching</h2>  
   <p>Create a class <code>MRUCache</code> that inherits from <code>BaseCaching</code> and is a caching system:</p>
   <ul>
     <li>You must use <code>self.cache_data</code> - dictionary from the parent class <code>BaseCaching</code></li>
